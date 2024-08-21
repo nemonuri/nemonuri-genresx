@@ -3,7 +3,7 @@
   <Import Project="Directory.Pack.props" />
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
     <DevelopmentDependency>true</DevelopmentDependency>
   </PropertyGroup>

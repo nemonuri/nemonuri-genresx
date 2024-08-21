@@ -28,7 +28,7 @@
     - The package name or identifier.
     - Default: $(AssemblyName)
     -->
-    <PackageId>Nemonuri.GenResx.Targets</PackageId>
+    <PackageId>Nemonuri.ResxDefinitions</PackageId>
 
     <!--
     - NuGet package version.

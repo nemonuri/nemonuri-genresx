@@ -1,3 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+   <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework Condition="'$(TargetFrameworkOverride)' == ''">net8.0</TargetFramework>
+    <TargetFramework Condition="'$(TargetFrameworkOverride)' != ''">TargetFrameworkOverride</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <IsPublishable>false</IsPublishable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nemonuri.GenResx.Targets" Version="0.0.1" />
+    <PackageReference Include="Nemonuri.ResxDefinitions" Version="0.0.1" />
+  </ItemGroup>
 </Project>
