@@ -12,4 +12,10 @@
     <PackageReference Include="Nemonuri.GenResx.Targets" Version="0.0.1" />
     <PackageReference Include="Nemonuri.ResxDefinitions" Version="0.0.1" />
   </ItemGroup>
+
+  <ItemGroup Label="GenResx Requests">
+    <GenResxRequest Include="Company.Product-1.csproj" >
+      
+    </GenResxRequest>
+  </ItemGroup>
 </Project>

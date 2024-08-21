@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Nemonuri.GenResx.Tasks;
+namespace Nemonuri.GenResx.Template.PostActions;
 
-public partial class GenResx() : Task
+public partial class GenResxTemplatePostAction() : Task
 {
     private const string FallbackAppDesignerFolderPathSegment = "Properties";
 
