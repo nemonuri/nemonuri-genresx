@@ -1,0 +1,33 @@
+<Project>
+
+  <PropertyGroup Label="Package Metadata">
+
+    <!--
+    - A semicolon-separated list of packages authors, matching the profile names on nuget.org.
+    - These are displayed in the NuGet Gallery on nuget.org and are used to cross-reference packages by the same authors.
+    - Recommend: Use "pretty name".
+    - ContosoToolkit (X)
+    - Contoso Corporation (O)
+    - TO-DO: Fill your or your organization's names as package authors.
+    -->
+    <Authors>Nemonuri</Authors>
+
+    <!--
+    - In-Package path to the package icon image file.
+    - Recommend: Use an image that is 128x128 and has a transparent background (PNG) for best viewing results.
+    -->
+    <PackageIcon>nemonuri_icon_128x128.png</PackageIcon>
+
+  </PropertyGroup>
+
+  <ItemGroup Label="Package Metadata">
+
+    <!-- Including icon file info package. -->
+    <None Include="$(MSBuildThisFileDirectory)nemonuri_icon_128x128.png" 
+        Pack="true" 
+        PackagePath=""
+        KeepDuplicates="false" />
+
+  </ItemGroup>
+
+</Project>
