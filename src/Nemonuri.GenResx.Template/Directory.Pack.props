@@ -69,7 +69,7 @@
     - Repository URL used to clone or retrieve source code.
     - Example: https://github.com/NuGet/NuGet.Client.git
     -->
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/nemonuri/nemonuri-genresx</RepositoryUrl>
 
     <!--
     - Repository type.
@@ -87,7 +87,7 @@
     - In-Package path to the package icon image file.
     - Recommend: Use an image that is 128x128 and has a transparent background (PNG) for best viewing results.
     -->
-    <PackageIcon>icon_128x128.png</PackageIcon>
+    <PackageIcon>nemonuri_icon_128x128.png</PackageIcon>
 
     <!--
     - In-Package path to the package README markdown file.
@@ -100,7 +100,7 @@
     - Tags are used when searching for packages.
     - Recommend: Include several tags with key terms related to your package to enhance discoverability.
     -->
-    <PackageTags></PackageTags>
+    <PackageTags>TODO</PackageTags>
 
     <!--
     - A description of the changes made in this release of the package.
@@ -111,7 +111,7 @@
     - Recommend 2: Include a link to the release note file.
     - Recommend 3: Include a link to the release note URL.
     -->
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
 
     <!--
     - An SPDX license expression.
@@ -121,14 +121,14 @@
     - If you want to use your own license, use <PackageLicenseFile> property instead.
       - Packing a license expression or a license file: https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets#packing-a-license-expression-or-a-license-file
     -->
-    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
   </PropertyGroup>
 
   <ItemGroup Label="Package Metadata">
     
     <!-- Including icon file info package. -->
-    <None Include="Directory.Pack.Resources\icon_128x128.png" Pack="true" PackagePath=""/>
+    <None Include="Directory.Pack.Resources\nemonuri_icon_128x128.png" Pack="true" PackagePath=""/>
 
     <!-- Including readme file info package. -->
     <None Include="Directory.Pack.Resources\README.md" Pack="true" PackagePath="" />
